@@ -21,6 +21,12 @@ public class MainActivity extends AppCompatActivity {
         Log.d("LOG_TAG", System.currentTimeMillis() + "" );
         Log.d("LOG_TAG", "로그 추가");
 
+        StringBuffer sb = new StringBuffer();
+
+        for( int i = 0; i < 100 ; i++){
+            sb.append(i);
+        }
+
     }
 
 }
