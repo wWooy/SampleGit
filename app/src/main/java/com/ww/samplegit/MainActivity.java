@@ -22,4 +22,5 @@ public class MainActivity extends AppCompatActivity {
         Log.d("LOG_TAG", "로그 추가");
 
     }
+
 }
